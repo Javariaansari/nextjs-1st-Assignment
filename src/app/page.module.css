@@ -163,3 +163,21 @@ a.secondary {
     filter: invert();
   }
 }
+.navbar {
+  background-color: #0a1851;
+  padding: 10px;
+  border-radius: 15px; /* Rounded corners */
+  display: flex;
+  justify-content: space-around;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+}
